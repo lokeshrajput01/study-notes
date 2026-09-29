@@ -226,7 +226,7 @@ I used Windows Task Manager to observe running processes and system resources.
 - **Logical processors:** 14
 - **RAM:** 16 GB DDR5
 - **Storage:** NVMe SSD
-- **GPU:** Intel Arc 140T
+- **GPU:** Intel Arc 130T
 
 ### What I learned from the practical observation
 
