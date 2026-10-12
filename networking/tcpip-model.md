@@ -32,17 +32,18 @@ it actually deals with cables,wifi signal, network cards,
 mac address lives here.
 the main protocols here are ethernet,wifi 802.11
 
-how it maps to the osi layers -
-layer 4 application layer - application+presentation+session
-layer 3 transport layer - transport
-layer 2 internet layer - network
-layer 1 network access layer - data link + physical
+## How it maps to the OSI layers
 
-osi has 7 layers because it separates everything more precisely.
-where tcp/ip model is actually used in network communication.
-osi model is a conceptual model that used for teaching and troubleshooting conversations 
+Layer 4 Application → Application + Presentation + Session  
+Layer 3 Transport → Transport  
+Layer 2 Internet → Network  
+Layer 1 Network Access → Data Link + Physical
 
-tcp/ip in cybersec.
+osi has 7 layers because it separates things more precisely.
+where tcp/ip practical model actually used in real networks.
+osi model is a conceptual model that used for teaching and troubleshooting conversations.
+
+## why the tcp/ip model matters in cybersecurity.
 understanding tcp/ip help sec. analyst to interpret network traffic ,recognize where suspicious activity may occur,
 understand communication between systems,investigate connectivity problem
 
