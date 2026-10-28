@@ -50,7 +50,7 @@ also i saw my default gateway ip address by confirming through ipconfig, and i a
 
 ## Lab output
 When i run nslookup command in my cmd  for different domains. I got the server name which is unknown for every nslookup command i run for few domains then below that i got my default gateway ip address this also seen in every nslookup command.
- After this two common  things below that i saw “non-authoratative answer” for every nslookup command i run and below that i got ip addresses of the different domains in that i saw 2 ips like 1 ipv4,1 ipv6 for few domains like google.com,microsoft.com,github.com
+ After this two common  things below that i saw “non-authoritative answer” for every nslookup command i run and below that i got ip addresses of the different domains in that i saw 2 ips like 1 ipv4,1 ipv6 for few domains like google.com,microsoft.com,github.com
  Etc. and also saw 2ipv4 and 2 ipv6 ip addresses for cloudflare.com and i also saw 3 ipv4 and 3 ipv6 ip addresses for other domains like amazon.com and  i also saw 4 ipv4 and 4 ipv6 ip addresses for other domains like bbc.com,youtube.com,etc
 I saw different-different ip address for different domains like some has 1 ipv4,1ipv6 some has 2 ipv4,2ipv6 some has 3ipv4,3ipv6 some has 4ipv4,4ipv6 and some 1 ipv6 2 ipv4 or 1 ipv6 3 ipv4 addresses etc etc
 I saw this stuff when i run nslookup command.
@@ -58,6 +58,8 @@ I saw this stuff when i run nslookup command.
 
 ## One thing I can now explain without notes
 dns is like a phonebook for the internet. when i type google.com my laptop asks the resolver, resolver asks root, root points to tld, tld points to authoritative server, authoritative gives the ip back. the ip gets cached so next time it is faster.
+
+
 ## What I'll review tomorrow
 Tomorrow I will run nslookup on 20 domains and study 
 DNS record types — A, AAAA, MX, CNAME.
